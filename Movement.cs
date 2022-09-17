@@ -49,7 +49,7 @@ public class Movement : MonoBehaviour
 
         ////Jump
         if(Input.GetButtonDown("Jump") && IsGrounded() ){
-            // 剛體速度，倒置重力
+            //  新增垂直速度
             rb.velocity = Vector2.up * jumpVelocity;
             
         }
